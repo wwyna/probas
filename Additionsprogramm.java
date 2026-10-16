@@ -9,8 +9,9 @@ public class Additionsprogramm {
         System.out.println(summe);
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Eingabe: ");
         int meineZahl = sc.nextInt();
-        sc.close();
+        sc.close(); // Braucht man nicht unbedingt, aber Standard
 
         System.out.println(meineZahl + 1);
     }
