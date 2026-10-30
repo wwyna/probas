@@ -7,20 +7,15 @@ public class Personalien {
         StringBuilder sb = new StringBuilder();
 
         System.out.print("Gebe mir deinen Vornamen: ");
-        String vorname = sc.nextLine();
-        sb.append(vorname + "; ");
+        sb.append(sc.nextLine() + "; ");
         System.out.print("Gebe mir deinen Nachnamen: ");
-        String nachname = sc.nextLine();
-        sb.append(nachname + "; ");
+        sb.append(sc.nextLine() + "; ");
         System.out.print("Gebe mir dein Geschlecht: ");
-        String geschlecht = sc.nextLine();
-        sb.append(geschlecht + "; ");
+        sb.append(sc.nextLine() + "; ");
         System.out.print("Gebe mir dein Geburtsdatum: ");
-        String geburtsdatum = sc.nextLine();
-        sb.append("geb. " + geburtsdatum + "; ");
+        sb.append("geb. " + sc.nextLine() + "; ");
         System.out.print("Gebe mir deinen Beruf: ");
-        String beruf = sc.nextLine();
-        sb.append(beruf);
+        sb.append(sc.nextLine());
 
         System.out.println(sb);
 
