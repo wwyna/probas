@@ -1,11 +1,14 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class WerteBereichsChecker {
     static void main() {
         Scanner sc = new Scanner(System.in);
 
-        int zufall1 = (int) Math.round(Math.random() * 101);
-        int zufall2 = (int) Math.round(Math.random() * 101);
+        Random rand = new Random();
+
+        int zufall1 = rand.nextInt(100);
+        int zufall2 = rand.nextInt(100);
         int unterGrenze = Math.min(zufall1, zufall2);
         int oberGrenze = Math.max(zufall1, zufall2);
 
