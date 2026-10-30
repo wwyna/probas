@@ -9,8 +9,10 @@ public class IntervallChecker {
 
         if (ganzZahl >= 10 && ganzZahl <= 20) {
             System.out.println(ganzZahl + " liegt INNERHALB des Intervalls [10,20].");
+        } else if (ganzZahl <= 10) {
+            System.out.println(ganzZahl + " liegt UNTERHALB des Intervalls [10,20].");
         } else {
-            System.out.println(ganzZahl + " liegt AUßERHALB des Intervalls [10,20].");
+            System.out.println(ganzZahl + " liegt OBERHALB des Intervalls [10,20].");
         }
 
         sc.close();
