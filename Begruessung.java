@@ -22,7 +22,7 @@ public class Begruessung {
                 String anrede = "";
                 if (geschlecht.equals("m")) {
                     anrede = "Herr";
-                } else if (geschlecht.equals("w")) {
+                } else {
                     anrede = "Frau";
                 }
                 System.out.println("Guten Tag " + anrede + " " + nachname + ", ich heiße Sie willkommen");
